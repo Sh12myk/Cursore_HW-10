@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header container d-flex justify-content-around">
+        <nav class=" navbar fixed-top navbar-light bg-white border-bottom d-flex justify-content-around">
+            <a class="navbar-brand " href="#">
+                <img src="./additional_files/img/inst.svg" alt="Instagram logo">
+            </a>
+            <form class="d-flex">
+                <input class="header-search form-control me-2 me-2-edit" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <nav class="nav">
+                <a href="#" class="nav-link nav-link-edit "><img src="./additional_files/img/home.svg" alt="Home logo"></a>
+                <a href="#" class="nav-link nav-link-edit notifications"><img src="./additional_files/img/direct.svg" alt="Message logo"></a>
+                <a href="#" class="nav-link nav-link-edit"><img src="./additional_files/img/discovery.svg" alt="discovery logo"></a>
+                <a href="#" class="nav-link nav-link-edit last"><img src="./additional_files/img/likely.svg" alt="likely things logo"></a>
+                <a href="#" class="nav-link nav-link-edit profile-img"><img src="./additional_files/img/lagan.png" alt="account logo" class="account-logo"></a>
+            </nav>
+        </nav>
+    </header>
+    <main >
+        <section class="profile">
+            <article class="profile__content">
+                <div class="container">
+                    <div class="row profile__content-edit">
+                        <div class="offset-md-1 col-md-3">
+                            <img src="./additional_files/img/lagan.png" class="lagan" alt="Gurren Lagann">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                                <h2 class="profile__content-header">Mega Gurren Dan</h2>
+                                <button type="button" class="btn btn-primary">Follow</button>
+                                <div class="btn-group" role="group">
+                                    <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle btn-after" data-bs-toggle="dropdown" aria-expanded="false">
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                        <li><a class="dropdown-item" href="#">Change Password</a></li>
+                                        <li><a class="dropdown-item" href="#">Nametag</a></li>
+                                        <li><a class="dropdown-item" href="#">Apps and Websites</a></li>
+                                        <li><a class="dropdown-item" href="#">Notifications</a></li>
+                                        <li><a class="dropdown-item" href="#">Privacy and Security</a></li>
+                                    </ul>
+                                </div>
+                                <button type="button" class="btn btn-primary dot">•••</button>
+                            </div>
+                            <div class="profile__content-followers">
+                                <div class="row">
+                                    <div class="col-12-sm">
+                                        <div class="profile__content-followers-posts">
+                                            <p><span>12 </span>posts</p>
+                                        </div>
+                                        <div class="profile__content-followers-followers">
+                                            <p><span>1212 </span>followers</p>
+                                        </div>
+                                        <div class="profile__content-followers-following">
+                                            <p><span>3 </span>following</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="profile__content-bio">
+                                    <h3 class="profile__content-bio__title">Mega Gurren Dan</h3>
+                                    <p class="profile__content-bio__text">Команда Гуррен-Дан - команда, образованная Каминой Дзиха из небольших групп повстанцев для сражения сначала со зверолюдьми, а потом с Антиспиральщиком</p>
+                                    <a class="profile__content-bio__link" href="#">bit.ly/35Ce3mX</a>
+                                </div>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="profile__footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="card-flex offset-md-1">
+                            <div class="card card-border">
+                                <img class="profile__footer-stories__img" src="./additional_files/img/about.jpg" alt="About us">
+                                <h5 class="card-title">About us</h5>
+                            </div>
+                            <div class="card card-border card-no-margin">
+                                <img class="profile__footer-stories__img" src="./additional_files/img/team.jpg" alt="Team">
+                                <h5 class="card-title">Team</h5>
+                            </div>
+                            <div class="card card-border card-no-margin">
+                                <img class="profile__footer-stories__img" src="./additional_files/img/history.jpg" alt="History">
+                                <h5 class="card-title">History</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="profile__posts">
+                <div class="container">
+                    <ul class="nav nav-pills justify-content-center">
+                        <li class="nav-pills">
+                            <a class="nav-link nav-link-border nav-active" href="#"><img src="./additional_files/img/grid.svg" alt="Fence icon.">Posts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-border-two" href="#"><img src="./additional_files/img/tag.svg" alt="Tagged icon.">Tagged</a>
+                        </li>
+                    </ul>
+                    <div class="row posts-bottom">
+                        <div class="col-4 ro profile__posts-images"><img src="./additional_files/img/12.jpg" alt="Post"></div>
+                        <div class="col-4 profile__posts-images"><img src="./additional_files/img/11.png" alt="Post"></div>
+                        <div class="col-4 profile__posts-images"><img src="./additional_files/img/10.jpg" alt="Post"></div>
+                    </div>
+                    <div class="row posts-bottom">
+                        <div class="col-4 profile__posts-images"><img src="./additional_files/img/9.jpg" alt="Post"></div>
+                        <div class="col-4 profile__posts-images"><img src="./additional_files/img/8.jpg" alt="Post"></div>
+                        <div class="col-4 profile__posts-images"><img src="./additional_files/img/7.jpg" alt="Post"></div>
+                    </div>
+                    <div class="row posts-bottom">
+                        <div class="col-4 profile__posts-images"><img src="./additional_files/img/6.jpg" alt="Post"></div>
+                        <div class="col-4 profile__posts-images"><img src="./additional_files/img/5.jpg" alt="Post"></div>
+                        <div class="col-4 profile__posts-images"><img src="./additional_files/img/4.png" alt="Post"></div>
+                    </div>
+                    <div class="row posts-bottom">
+                        <div class="col-4 profile__posts-images"><img src="./additional_files/img/3.jpg" alt="Post"></div>
+                        <div class="col-4 profile__posts-images"><img src="./additional_files/img/2.jpg" alt="Post"></div>
+                        <div class="col-4 profile__posts-images"><img src="./additional_files/img/1.png" alt="Post"></div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="container-fluid">
+
+    </footer>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
